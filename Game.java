@@ -13,9 +13,7 @@ public class Game {
         levelThree = new Level();
     }
 
-    /**
-     * Returns true if this game is a bonus game and returns false otherwise
-     */
+
     public boolean isBonus() {
         return bonus;
     }
@@ -31,10 +29,6 @@ public class Game {
         return null;
     }
 
-    /**
-     * Returns the score earned in the most recently played game, as described in
-     * part (a)
-     */
     public int getScore() {
         int points = 0;
         if (levelOne.goalReached()) {
